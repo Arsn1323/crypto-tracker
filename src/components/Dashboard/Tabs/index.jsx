@@ -7,7 +7,7 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import { createTheme, ThemeProvider } from '@mui/material';
 import Grid from "../Grid"
-import  "./Style.css";
+import  "./style.css";
 import List from '../List';
 export default function TabsComponent({coins}) {
   const [value, setValue] = useState("grid");
