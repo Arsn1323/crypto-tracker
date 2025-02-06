@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css";
 import  { useState } from "react";
-import { saveItemToWatchlist } from "../../../functions/saveItemToWatchList";
+import { saveItemToWatchlist } from "../../../functions/saveItemToWatchlist";
 import { removeItemToWatchlist } from "../../../functions/removeItemToWatchlist";
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
