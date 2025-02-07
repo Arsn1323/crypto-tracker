@@ -44,7 +44,7 @@ function MainComponent() {
           transition={{ delay: 1.25, duration: 0.75 }}
         >
           <Link to="/dashboard">
-        <p className='link'>Dashboard</p>
+        <Button text={"Dashboard"} outlined={true} />
          
         </Link>
           {/* <RWebShare
