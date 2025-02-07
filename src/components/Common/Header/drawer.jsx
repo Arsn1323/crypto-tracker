@@ -68,7 +68,7 @@ export default function SwipeableTemporaryDrawer() {
             <p className="link">Watchlist</p>
           </Link>
           <Link to="/dashboard">
-          <Button text={"dashboard"} />
+        <p className='link'>Dashboard</p>
          
         </Link>
         </div>
