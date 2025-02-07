@@ -42,10 +42,10 @@ function MainComponent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.25, duration: 0.75 }}
         >
-          <a href="/dashboard">
-            <Button text={"Dashboard"} />
-            
-          </a>
+          <Link to="/dashboard">
+        <p className='link'>Dashboard</p>
+         
+        </Link>
           {/* <RWebShare
             data={{
               text: "CryptoDashboard made by Ankit Raj using React JS.",
