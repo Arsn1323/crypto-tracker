@@ -58,18 +58,18 @@ export default function SwipeableTemporaryDrawer() {
         onOpen={() => setOpen(true)}
       >
         <div className="drawer-div">
-          <Link to="/">
-            <p className="link">Home</p>
-          </Link>
-          <Link to="/compare">
-            <p className="link">Compare</p>
-          </Link>
-          <Link to="/watchlist">
-            <p className="link">Watchlist</p>
-          </Link>
+           <Link to="/">
+          <p className="link">Home</p>
+        </Link>
           <Link to="/dashboard">
         <p className='link'>Dashboard</p>
          
+        </Link>
+        <Link to="/watchlist">
+          <p className="link">Watchlist</p>
+        </Link>
+        <Link to="/compare">
+          <p className="link">Compare</p>
         </Link>
         </div>
         {/* {list(anchor)} */}
