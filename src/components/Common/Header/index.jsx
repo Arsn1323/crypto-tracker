@@ -20,7 +20,7 @@ function Header() {
           <p className="link">Watchlist</p>
         </Link>
         <Link to="/dashboard">
-          <Button onClick={()=>console.log("btn clicked")} text={"Dashboard"}  />
+        <p className='link'>Dashboard</p>
          
         </Link>
       </div>
